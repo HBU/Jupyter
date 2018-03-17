@@ -1,4 +1,7 @@
 # ChineseWordCloud
+Ref:https://github.com/shangjingbo1226/ChineseWordCloud
+
+python 3.6
 
 ## Example Results
 
