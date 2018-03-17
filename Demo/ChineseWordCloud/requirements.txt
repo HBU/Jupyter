@@ -1,0 +1,9 @@
+jieba
+
+pandas
+
+wordcloud
+
+numpy
+
+scipy
