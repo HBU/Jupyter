@@ -1,0 +1,3 @@
+(base) C:\Users\David\Downloads\eric6-6.1.7\eric6-6.1.7>cd C:\Users\David\Anaconda3\Lib\site-packages\eric6
+
+(base) C:\Users\David\Anaconda3\Lib\site-packages\eric6>python eric6.py
