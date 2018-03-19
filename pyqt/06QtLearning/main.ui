@@ -42,7 +42,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>340</x>
@@ -177,6 +177,7 @@
   </connection>
  </connections>
  <slots>
+  <signal>signaltableview()</signal>
   <slot>btnClose()</slot>
   <slot>btnInsert()</slot>
   <slot>btnDelete()</slot>
