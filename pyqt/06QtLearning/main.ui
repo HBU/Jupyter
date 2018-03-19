@@ -6,31 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>568</width>
+    <width>517</width>
     <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>460</x>
-     <y>350</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>关闭</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>20</y>
+     <x>80</x>
+     <y>10</y>
      <width>211</width>
      <height>61</height>
     </rect>
@@ -45,6 +32,66 @@
     <string>用户管理</string>
    </property>
   </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>256</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>120</y>
+     <width>135</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>增加</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>删除</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>修改</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>关闭</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
  <resources/>
  <connections>
@@ -55,8 +102,8 @@
    <slot>btnClose()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>486</x>
-     <y>359</y>
+     <x>415</x>
+     <y>332</y>
     </hint>
     <hint type="destinationlabel">
      <x>541</x>
@@ -64,8 +111,76 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnInsert()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>372</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>479</x>
+     <y>109</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDelete()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>403</x>
+     <y>188</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>477</x>
+     <y>163</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnUpdate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>226</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>469</x>
+     <y>206</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnQuery()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>443</x>
+     <y>295</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>472</x>
+     <y>294</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>btnClose()</slot>
+  <slot>btnInsert()</slot>
+  <slot>btnDelete()</slot>
+  <slot>btnUpdate()</slot>
+  <slot>btnQuery()</slot>
  </slots>
 </ui>

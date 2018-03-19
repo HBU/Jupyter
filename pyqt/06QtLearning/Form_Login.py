@@ -20,6 +20,8 @@ class LoginDialog(QDialog,Ui_Dialog):
         else:
             QMessageBox.warning(self,"警告","用户名或密码错误！",QMessageBox.Yes)
             self.lineEdit.setFocus()
+
+
     def btnCancel(self):# 函数名在Qt中定义好
         self.close()
     def DatabaseQuery(self,uid,pwd): # 在数据库中查询用户名密码，存在返回1，不存在返回0
