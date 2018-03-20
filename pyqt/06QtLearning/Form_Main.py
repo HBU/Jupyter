@@ -11,7 +11,7 @@ class MainDialog(QDialog,Ui_Dialog_Main):
         self.setupUi(self)
         result = self.DatabaseQuery()
         # 设置一个4*4的表格数据模型
-        self.model = QStandardItemModel(0, 0)
+        self.model = QStandardItemModel(self)
         # 设置横坐标每项的属性名
         self.model.setHorizontalHeaderLabels(['UseID', 'PassWord'])
         # 配置数据，注意！！！需要使用QStandardItem格式的文本
@@ -47,6 +47,17 @@ class MainDialog(QDialog,Ui_Dialog_Main):
             result = cur.fetchall()
         except:
             print("Error: unable to fetch data")
+        self.model = QStandardItemModel(self)
+        # 设置横坐标每项的属性名
+        self.model.setHorizontalHeaderLabels(['UseID', 'PassWord'])
+        # 配置数据，注意！！！需要使用QStandardItem格式的文本
+        i = 0
+        for r in result:
+            self.model.setItem(i, 0, QStandardItem(str(r[0])))
+            self.model.setItem(i, 1, QStandardItem(str(r[1])))
+            i += 1
+        self.tableView.setModel(self.model)
+        #self.model.setItem(1,1,QStandardItem(str(result[0])))
         print(str(result)) # 查到数据，但是无法更新到qTableView 。。。
         cur.close()
         conn.close()
