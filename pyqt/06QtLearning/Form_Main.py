@@ -33,7 +33,8 @@ class MainDialog(QDialog,Ui_Dialog):
         self.FormInsert = insertDialog()
         self.FormInsert.show()
         # 显示数据
-        self.DatabaseQuery()
+        result = self.DatabaseQuery()
+        self.modelLoad(result)
         pass
 
     def btnDelete(self):
