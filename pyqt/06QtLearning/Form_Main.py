@@ -1,11 +1,13 @@
 import pymssql
 from PyQt5.QtGui import QStandardItemModel, QStandardItem
-from PyQt5.QtWidgets import QDialog, QHeaderView
+from PyQt5.QtWidgets import QDialog, QHeaderView, QMessageBox
+from gevent import event
 
-from main import Ui_Dialog_Main
+from Form_Insert import insertDialog
+from main import  Ui_Dialog
 
 
-class MainDialog(QDialog,Ui_Dialog_Main):
+class MainDialog(QDialog,Ui_Dialog):
     def __init__(self):
         QDialog.__init__(self)
         self.setupUi(self)
@@ -27,7 +29,11 @@ class MainDialog(QDialog,Ui_Dialog_Main):
         self.tableView.setModel(self.model)
 
     def btnInsert(self):
-        
+        # 插入数据
+        self.FormInsert = insertDialog()
+        self.FormInsert.show()
+        # 显示数据
+        self.DatabaseQuery()
         pass
 
     def btnDelete(self):

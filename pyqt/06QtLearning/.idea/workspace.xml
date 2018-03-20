@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ddc339-0c57-47f6-869e-374b29d4f1ac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/06QtLearning.iml" afterPath="$PROJECT_DIR$/.idea/06QtLearning.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Form_Insert.py" />
+      <change beforePath="$PROJECT_DIR$/../02SimpleDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../02SimpleDemo/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Form_Main.py" afterPath="$PROJECT_DIR$/Form_Main.py" />
+      <change beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="Form_Login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Form_Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="351">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="40" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -28,16 +29,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form_Main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Form_Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Form_Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="486">
+              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
-                <element signature="e#571#999#0" expanded="false" />
-                <element signature="e#1159#1636#0" expanded="false" />
-                <element signature="e#1670#1682#0" expanded="false" />
-                <element signature="e#1735#2234#0" expanded="false" />
+                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#637#1065#0" expanded="false" />
+                <element signature="e#1347#1824#0" expanded="false" />
+                <element signature="e#1858#1870#0" expanded="false" />
+                <element signature="e#1923#2422#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form_Insert.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Form_Insert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,10 +77,11 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Form_Main.py" />
+        <option value="$PROJECT_DIR$/Form_Insert.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -106,7 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Form_Login.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02SimpleDemo" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -213,13 +228,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17421874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24018475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24018475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -260,7 +275,7 @@
         <state relative-caret-position="189">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -278,10 +293,11 @@
         <state relative-caret-position="1458">
           <caret line="58" column="43" lean-forward="true" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
           <folding>
-            <element signature="e#571#999#0" expanded="false" />
-            <element signature="e#1159#1636#0" expanded="false" />
-            <element signature="e#1670#1682#0" expanded="false" />
-            <element signature="e#1735#2234#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#637#1065#0" expanded="false" />
+            <element signature="e#1347#1824#0" expanded="false" />
+            <element signature="e#1858#1870#0" expanded="false" />
+            <element signature="e#1923#2422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -301,10 +317,11 @@
         <state relative-caret-position="135">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <element signature="e#571#999#0" expanded="false" />
-            <element signature="e#1159#1636#0" expanded="false" />
-            <element signature="e#1670#1682#0" expanded="false" />
-            <element signature="e#1735#2234#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#637#1065#0" expanded="false" />
+            <element signature="e#1347#1824#0" expanded="false" />
+            <element signature="e#1858#1870#0" expanded="false" />
+            <element signature="e#1923#2422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -322,7 +339,7 @@
         <state relative-caret-position="351">
           <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -350,10 +367,11 @@
         <state relative-caret-position="50">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#571#999#0" expanded="false" />
-            <element signature="e#1159#1636#0" expanded="false" />
-            <element signature="e#1670#1682#0" expanded="false" />
-            <element signature="e#1735#2234#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#637#1065#0" expanded="false" />
+            <element signature="e#1347#1824#0" expanded="false" />
+            <element signature="e#1858#1870#0" expanded="false" />
+            <element signature="e#1923#2422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -381,10 +399,11 @@
         <state relative-caret-position="50">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#571#999#0" expanded="false" />
-            <element signature="e#1159#1636#0" expanded="false" />
-            <element signature="e#1670#1682#0" expanded="false" />
-            <element signature="e#1735#2234#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#637#1065#0" expanded="false" />
+            <element signature="e#1347#1824#0" expanded="false" />
+            <element signature="e#1858#1870#0" expanded="false" />
+            <element signature="e#1923#2422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -419,10 +438,11 @@
         <state relative-caret-position="300">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#571#999#0" expanded="false" />
-            <element signature="e#1159#1636#0" expanded="false" />
-            <element signature="e#1670#1682#0" expanded="false" />
-            <element signature="e#1735#2234#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#637#1065#0" expanded="false" />
+            <element signature="e#1347#1824#0" expanded="false" />
+            <element signature="e#1858#1870#0" expanded="false" />
+            <element signature="e#1923#2422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -447,10 +467,11 @@
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="16" />
           <folding>
-            <element signature="e#571#999#0" expanded="false" />
-            <element signature="e#1159#1636#0" expanded="false" />
-            <element signature="e#1670#1682#0" expanded="false" />
-            <element signature="e#1735#2234#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#637#1065#0" expanded="false" />
+            <element signature="e#1347#1824#0" expanded="false" />
+            <element signature="e#1858#1870#0" expanded="false" />
+            <element signature="e#1923#2422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -477,7 +498,7 @@
         <state relative-caret-position="189">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -492,23 +513,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Form_Login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="351">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/insert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Form_Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="486">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
-            <element signature="e#571#999#0" expanded="false" />
-            <element signature="e#1159#1636#0" expanded="false" />
-            <element signature="e#1670#1682#0" expanded="false" />
-            <element signature="e#1735#2234#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#637#1065#0" expanded="false" />
+            <element signature="e#1347#1824#0" expanded="false" />
+            <element signature="e#1858#1870#0" expanded="false" />
+            <element signature="e#1923#2422#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Form_Insert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
