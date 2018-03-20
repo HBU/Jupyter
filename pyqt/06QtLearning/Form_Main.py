@@ -10,23 +10,24 @@ class MainDialog(QDialog,Ui_Dialog_Main):
         QDialog.__init__(self)
         self.setupUi(self)
         result = self.DatabaseQuery()
-        # 设置一个4*4的表格数据模型
-        self.model = QStandardItemModel(self)
-        # 设置横坐标每项的属性名
-        self.model.setHorizontalHeaderLabels(['UseID', 'PassWord'])
-        # 配置数据，注意！！！需要使用QStandardItem格式的文本
+        self.modelLoad(result)
+        # 下面代码让表格100%填满窗口
+        self.tableView.horizontalHeader().setStretchLastSection(True)
+        self.tableView.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+
+    def modelLoad(self,result):
+        self.model = QStandardItemModel(self)   # 设置横坐标每项的属性名
+        self.model.setHorizontalHeaderLabels(['UseID', 'PassWord']) # 配置数据，注意！！！需要使用QStandardItem格式的文本
         i = 0
-        print('tableShow:'+str(result))
+        # print('tableShow:' + str(result))
         for r in result:
             self.model.setItem(i, 0, QStandardItem(str(r[0])))
             self.model.setItem(i, 1, QStandardItem(str(r[1])))
             i += 1
         self.tableView.setModel(self.model)
-        # 下面代码让表格100%填满窗口
-        self.tableView.horizontalHeader().setStretchLastSection(True)
-        self.tableView.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
 
     def btnInsert(self):
+        
         pass
 
     def btnDelete(self):
@@ -38,27 +39,15 @@ class MainDialog(QDialog,Ui_Dialog_Main):
     def btnQuery(self):
         conn = pymssql.connect(host='.', user='sa', password='sql', database='Test', charset="GBK")
         uid = self.lineEdit.text()
-        print(str(uid))
         sqlstr = 'select * from usertable where userid = \''+ str(uid) +'\''
-        print(sqlstr)
+        # print(sqlstr)
         try:
             cur = conn.cursor()
             cur.execute(sqlstr)
             result = cur.fetchall()
         except:
             print("Error: unable to fetch data")
-        self.model = QStandardItemModel(self)
-        # 设置横坐标每项的属性名
-        self.model.setHorizontalHeaderLabels(['UseID', 'PassWord'])
-        # 配置数据，注意！！！需要使用QStandardItem格式的文本
-        i = 0
-        for r in result:
-            self.model.setItem(i, 0, QStandardItem(str(r[0])))
-            self.model.setItem(i, 1, QStandardItem(str(r[1])))
-            i += 1
-        self.tableView.setModel(self.model)
-        #self.model.setItem(1,1,QStandardItem(str(result[0])))
-        print(str(result)) # 查到数据，但是无法更新到qTableView 。。。
+        self.modelLoad(result)
         cur.close()
         conn.close()
 
