@@ -1,4 +1,4 @@
-﻿# 第6章 数据加载、存储与文件格式
+# 第6章 数据加载、存储与文件格式
 - Jupyter Notebook
 - Anaconda
 - Python 3.6
