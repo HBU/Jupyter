@@ -3,4 +3,4 @@
 - Anaconda
 - Python 3.6
 
-[](https://www.jianshu.com/p/047d8c1c7e14)
+[教程](https://www.jianshu.com/p/047d8c1c7e14)
